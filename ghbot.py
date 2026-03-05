@@ -33,7 +33,7 @@ logger = logging.getLogger(__name__)
 # Load BIN DB
 BIN_DB = {}
 # CSV - use URL for production
-CSV_PATH = os.environ.get("BIN_CSV", "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/bin-list-data.csv")
+CSV_PATH = os.environ.get("BIN_CSV", "https://raw.githubusercontent.com/HiddenCedar/ghostnet-bot/master/bin-list-data.csv")
 
 def load_bin_database():
     global BIN_DB
